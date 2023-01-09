@@ -1,0 +1,67 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\dalto\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install -g yarn
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\PuTTY\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64;C:\Program Files\Java\jre1.8.0_321\bin;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jre1.8.0_321\bin;C:\Users\dalto\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dalto\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\dalto\Desktop\Digilog\package.json: Unexpected token < in JSON at position 587
+      at JSON.parse (<anonymous>)
+      at C:\Users\dalto\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\dalto\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\dalto\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "digilog",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@expo/react-native-action-sheet": "^3.13.0",
+      "@react-navigation/bottom-tabs": "^6.2.0",
+      "@react-navigation/native": "^6.0.8",
+      "expo": "~44.0.0",
+      "expo-camera": "~12.1.2",
+      "expo-status-bar": "~1.2.0",
+      "react": "17.0.1",
+      "react-dom": "17.0.1",
+      "react-native": "0.64.3",
+  <<<<<<< HEAD
+      "react-native-document-scanner": "https://github.com/Michaelvilleneuve/react-native-document-scanner",
+  =======
+      "react-native-gesture-handler": "~2.1.0",
+  >>>>>>> 19af3bbe12e9404cb72cbb64ef39710a69725c1a
+      "react-native-ionicons": "^4.6.5",
+      "react-native-reanimated": "~2.3.1",
+      "react-native-safe-area-context": "^4.0.1",
+      "react-native-safe-area-view": "^1.1.1",
+      "react-native-web": "0.17.1"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
