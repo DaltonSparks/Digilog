@@ -1,3 +1,6 @@
+DigiLog mobile application demo
+https://drive.google.com/drive/folders/1XObRatgfdyn_MoayXM0WhH8UmffG0gyX?usp=sharing
+
 Whenever I view the calendar and then switch to the camera, I get
 a black screen. This issue only arises whenever I view the calendar.
 If I reload the app and do not click on the calendar, the camera works
